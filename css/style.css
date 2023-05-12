@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Delicious+Handrawn&family=Lobster&family=Mea+Culpa&family=Roboto+Condensed&family=Roboto+Slab:wght@300;400;500;600;700;800;900&family=Satisfy&family=Sedgwick+Ave+Display&family=Special+Elite&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  cursor: pointer;
+}
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 50%; */
+  width: 45%;
+
+  /* padding: 2%; */
+}
+.rightnav {
+  /* width: 50%; */
+  width: 28%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  font-size: 40%;
+  line-height: 1.5;
+  /* padding: 0px 5%; */
+  padding: 0px 1%;
+}
+#search {
+  height: 29px;
+  width: 210px;
+  border-radius: 7px;
+  position: relative;
+  top: 17%;
+  padding: 0% 2%;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img {
+  width: 28%;
+  border: 3px solid black;
+  border-radius: 24px;
+}
+
+.nav-list li {
+  padding: 4% 5%;
+  list-style: none;
+}
+.nav-list li a {
+  text-decoration: none;
+  font-size: 115%;
+  color: white;
+  font-family: "Roboto Slab", serif;
+}
+.nav-list li a:hover {
+  text-decoration: none;
+  font-size: 115%;
+  color: rgb(115, 129, 135);
+}
+.background {
+  background: rgba(0, 0, 0, 0.7) url("../img/blue\ sky.jpg") no-repeat fixed
+    center;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+.my-font {
+  /* font-family: "Sedgwick Ave Display", cursive; */
+  font-family: "Delicious Handrawn", cursive;
+}
+.para {
+  color: white;
+  height: 100vh;
+}
+.first-half {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sec-half {
+  width: 30%;
+}
+
+.sec-half img {
+  width: 70%;
+  display: block;
+  margin: auto;
+  border-radius: 773px;
+  background: rgba(0, 0, 0, 0.7);
+}
+.my-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 65%;
+  margin: auto;
+  height: 60%;
+}
+.text-big {
+  font-size: 240%;
+  font-family: "Delicious Handrawn", cursive;
+}
+.text-sm {
+  font-size: 100%;
+  font-family: "Roboto Slab", serif;
+  /* font-family: "Roboto Condensed", sans-serif; */
+}
+.btn {
+  padding: 1% 2%;
+  margin: 0% 2%;
+  border: 2px solid white;
+  border-radius: 8px;
+  background: none;
+  color: white;
+  cursor: pointer;
+  font-family: "Roboto Slab", serif;
+}
+.btn-dark {
+  color: black;
+  border: 2px solid gray;
+}
+.btn-sm {
+  padding: 1% 0%;
+  margin: 1% 1%;
+  background: none;
+  color: white;
+  /* width: 16%; */
+  position: relative;
+  top: -13%;
+  cursor: pointer;
+  font-family: "Roboto Slab", serif;
+}
+
+.heading {
+  padding: 1.5% 0;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.imgfluid {
+  width: 54%;
+  border-radius: 10px;
+  border: 2px solid black;
+  /* padding: 0 18%; */
+}
+.content {
+  display: flex;
+
+  justify-content: space-evenly;
+  align-items: center;
+  /* height: 250px; */
+  max-width: 80%;
+  margin: auto;
+}
+.left {
+  flex-direction: row-reverse;
+}
+
+.paras {
+  padding: 0 3%;
+}
+
+.contact {
+  height: 89vh;
+  background-color: rgb(238, 245, 255);
+  margin: 3% 0% 0% 0%;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.text-centre {
+  text-align: center;
+  padding: 2% 0%;
+  font-size: 188%;
+}
+.form-input {
+  margin: 3% 0%;
+  font-size: 120%;
+  width: 100%;
+  border: 2px solid gray;
+  border-radius: 5px;
+  padding: 0.5% 2%;
+}
+.form {
+  max-width: 45%;
+  margin: auto;
+}
+.text-footer {
+  text-align: center;
+  padding: 2% 0%;
+  font-size: 120%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: "Roboto Slab", serif;
+  /* align-items: center; */
+}
+
+.burger {
+  display: none;
+  position: absolute;
+  right: 5%;
+  top: 12%;
+  cursor: pointer;
+}
+.line {
+  width: 27px;
+  margin: 5px 3px;
+  height: 3px;
+  background-color: white;
+}
